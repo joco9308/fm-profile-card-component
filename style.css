@@ -40,7 +40,6 @@ body {
         url(images/bg-pattern-bottom.svg) bottom calc(50vh - 978px) right calc(50vw - 978px) no-repeat;
     background-color: hsl(185, 75%, 39%);
     height: 100%;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,6 +61,8 @@ main {
     border-radius: 10px;
     overflow: hidden;
     margin: 25px;
+    box-shadow: 0 15px;
+    box-shadow: 0 25px 40px -10px var(--dark-grayish-blue);
 }
 
 main header img {
